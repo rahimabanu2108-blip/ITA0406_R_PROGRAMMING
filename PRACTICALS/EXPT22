@@ -1,0 +1,13 @@
+v <- 1:8
+
+arr <- array(v,
+dim=c(2,2,2),
+dimnames=list(
+Row=c("R1","R2"),
+Col=c("C1","C2"),
+Table=c("T1","T2")
+))
+
+print(arr)
+
+arr["R2","C1","T2"]
