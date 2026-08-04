@@ -1,0 +1,4 @@
+mat <- matrix(1:9, nrow=3)
+print(mat)
+print(sum(mat))
+print(mean(mat))
