@@ -1,0 +1,5 @@
+A <- matrix(c(4,7,2,6), nrow=2)
+detA <- det(A)
+invA <- solve(A)
+print(detA)
+print(invA)
